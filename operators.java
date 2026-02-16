@@ -49,12 +49,6 @@ System.out.println(a>>2);
 a+=2;  // a= 10+2
 System.out.println(a);
 
-
-
-
-
-
-
         
     }
 
