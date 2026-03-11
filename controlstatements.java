@@ -54,23 +54,23 @@ class controlstatements {
 //     block of code 
 // }
 
-int a=90;
+// int a=90;
 
-if (a>=2 && a<15){   // false 
-    System.out.println("it worls");
-}
-else if(a>=15 && a<25){  // true 
-    System.out.println("not works");
-}
-else if(a>=25 && a<=30){  //true 
-    System.out.println("it works");
-}
-else if(a<=31){  //true 
-    System.out.println("it works");
-}
-else {
-    System.out.println("none of the condition is true");
-}
+// if (a>=2 && a<15){   // false 
+//     System.out.println("it worls");
+// }
+// else if(a>=15 && a<25){  // true 
+//     System.out.println("not works");
+// }
+// else if(a>=25 && a<=30){  //true 
+//     System.out.println("it works");
+// }
+// else if(a<=31){  //true 
+//     System.out.println("it works");
+// }
+// else {
+//     System.out.println("none of the condition is true");
+// }
 
 
 
@@ -92,17 +92,61 @@ else {
 
 // ex:
 
-if(a>70 || a<100){
-    if (a%2==0){
-        System.out.println("a is even number");
-    }
-    else {
-        System.out.println("a is odd number");
-    }
+// if(a>70 || a<100){
+//     if (a%2==0){
+//         System.out.println("a is even number");
+//     }
+//     else {
+//         System.out.println("a is odd number");
+//     }
+// }
+// else {
+//     System.out.println("a is not in the range of 70 to 100");
+// }
+
+// switch case : syntax
+
+// switch (expression){
+//     case value1:
+//         block of code 
+//         break;
+//     case value2:
+//         block of code 
+//         break;
+//     case value3:
+//         block of code 
+//         break;
+//     default:
+//         block of code
+int a=90;
+
+switch (a){
+
+    case 20:
+        System.out.println("a is 20");
+        break ;
+    case 40:
+        System.out.println("a is 40");
+            break;
+    case 50 :
+        System.out.println("a is 50");
+         break;
+    case 90:
+        System.out.println("a is 90");
+        break;
+    default:
+        System.out.println("a is not in the range of 20 to 90");
+  
 }
-else {
-    System.out.println("a is not in the range of 70 to 100");
-}
+
+
+
+
+
+
+
+
 
 }
 }
+
